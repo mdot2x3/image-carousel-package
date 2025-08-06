@@ -5,7 +5,7 @@ A simple, reusable image carousel utility for web projects.
 ## Installation
 
 ```sh
-npm install image-carousel-package
+npm install @mdot2x3/image-carousel-package
 ```
 
 ## Usage
@@ -30,8 +30,8 @@ For use with build tools like Webpack, Vite, Create React App, etc.
 2. **Import the JavaScript and CSS and initialize:**
 
    ```js
-   import { createImageCarousel } from "image-carousel-package";
-   import "image-carousel-package/style.css"; // optional, for default styling
+   import { createImageCarousel } from "@mdot2x3/image-carousel-package";
+   import "@mdot2x3/image-carousel-package/style.css"; // optional, for default styling
 
    const images = [
      // add your image URLs here

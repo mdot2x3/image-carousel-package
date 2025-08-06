@@ -54,6 +54,7 @@ export function createImageCarousel({
         centerIndex = idx;
         renderCarousel();
         renderSelectors();
+        resetAutoAdvance();
       });
       selectorsContainer.appendChild(circle);
     });
